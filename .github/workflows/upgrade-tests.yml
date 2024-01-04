@@ -29,7 +29,7 @@ env:
 jobs:
   upgrade-test:
     name: Run migration tests
-    runs-on: ubuntu-22.04
+    runs-on: warp-ubuntu-latest-x64-2x
 
     steps:
       - name: Install Prerequisites
